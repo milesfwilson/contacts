@@ -73,4 +73,5 @@ function generateId() {
   return Math.floor(Math.random() * 10000000) + ""
 }
 
-
+loadContacts()
+drawContacts()
