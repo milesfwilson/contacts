@@ -12,7 +12,6 @@ function addContact(event) {
   }
 
   contacts.push(contact)
-  loadContacts()
   saveContacts()
   form.reset()
   drawContacts()
