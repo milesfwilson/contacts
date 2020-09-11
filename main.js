@@ -61,10 +61,14 @@ function removeContact(contactId) {
 
 function toggleAddContactForm() {
   document.getElementById("new-contact-form").classList.remove("hidden")
+  saveContacts()
+  drawContacts()
 }
 
 function hideContactForm() {
   document.getElementById("new-contact-form").classList.add("hidden")
+  saveContacts()
+  drawContacts()
 }
 
 
