@@ -1,4 +1,4 @@
-let contacts = []
+let contacts = [];
 
 function addContact(event) {
   event.preventDefault()
@@ -12,6 +12,7 @@ function addContact(event) {
   }
 
   contacts.push(contact)
+  loadContacts()
   saveContacts()
   form.reset()
   drawContacts()
